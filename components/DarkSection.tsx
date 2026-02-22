@@ -16,7 +16,7 @@ export default function DarkSection() {
             viewport={{once: true}}
           >
             <span className="mb-6 inline-block rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium text-pink-300 backdrop-blur-sm">
-              // About Us? //
+              {'// About Us? //'}
             </span>
             <h2 className="mb-6 font-serif text-4xl font-light leading-tight md:text-5xl lg:text-6xl">
               Video AI is a shoppable video platform built for modern D2C brands.

@@ -51,11 +51,11 @@ export default function HeroSection() {
               </div>
             </div>
             <div className="mt-4 flex gap-1">
-              {[1, 2, 3, 4, 5].map((i) => (
+              {[40, 70, 30, 85, 50].map((height, i) => (
                 <div
                   key={i}
                   className="h-8 w-2 rounded-full bg-yellow-400/30"
-                  style={{height: `${Math.random() * 100}%`}}
+                  style={{height: `${height}%`}}
                 />
               ))}
             </div>
